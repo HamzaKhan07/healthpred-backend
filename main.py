@@ -158,4 +158,5 @@ def predict_cancer(arr: List[float] = Query(None)):
 if __name__ == '__main__':
     uvicorn.run(app, host='127.0.0.1', port=8000)
 
-# uvicorn app:app --reload
+# uvicorn main:app --reload
+# python -m uvicorn main:app --reload
